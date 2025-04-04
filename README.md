@@ -18,8 +18,8 @@ Pico Assembly uses the following instruction set:
 - `C` (Conditional Jump): Skips the next instruction if the specified register is zero or negative.
 - `W` (Write Character): Outputs the ASCII character stored in the specified register.
 
-## Example: "Hello, World!"
-To print "Hello, World!", enter the following program:
+## Example: "Hello"
+To print "Hello", enter the following program:
 
 ```
 R1=72
@@ -27,20 +27,13 @@ R2=101
 R3=108
 R4=111
 
-How long should your code be?: 13
+How long should your code be?: 6
 1. W1
 2. W2
 3. W3
 4. W3
 5. W4
-6. W3
-7. W32
-8. W4
-9. W3
-10. W2
-11. W3
-12. W1
-13. E
+6. E
 ```
 
 ## How to Run
